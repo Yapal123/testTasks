@@ -1,0 +1,81 @@
+html,body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	display: none;
+}
+.navbar{
+	width: 100%;
+	height: 60px;
+	background-color: pink;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	margin-bottom: 2%;
+	border-radius: 0 0 10px 10px;
+}
+.navbar h2{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+.navbar a{
+	margin: 2%;
+	text-decoration: none;
+}
+.content{
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	border-radius: 10px;
+	height: 100vh;
+	background-color: skyblue;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.content li{
+	list-style-type: none;
+}
+
+.content a{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 2;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.footer{
+	width: 100%;
+	height: 60px;
+	background-color: pink;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+	margin-top: 2%;
+
+}
+.questBlock{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.questBlock p{
+	padding-top: 20px;
+	font-size: 20px;
+}
+.taskBlock{
+	padding-top: 20px;
+	width: 90%;
+	margin: 0 auto;
+	
+
+}
+
+.taskBlock p{
+	padding-top: 20px;
+	font-size: 20px;
+}
